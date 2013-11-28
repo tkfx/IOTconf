@@ -9748,6 +9748,15 @@ border-radius: 20px;
     border-radius: 450px / 450px;
 }
 
+.oval-shape-small{
+width: 150px;
+height: 150px;
+background: #fefe53;
+-moz-border-radius: 300px / 300px;
+-webkit-border-radius: 300px / 300px;
+border-radius: 300px / 300px;
+}
+
 @font-face { 
   font-family: "always and forever";
   src: url('http://static.tumblr.com/7glhdxz/WEGmgeus4/always_forever.ttf');
