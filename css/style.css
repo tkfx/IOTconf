@@ -8196,7 +8196,7 @@ table.rounded > tbody:first-child tr:first-child td {
 * For more details: 
 * http://www.mightymeta.co.uk/css-noise/
 *****************/
-.noise {
+/*.noise {
   position: relative;
   z-index: 1;
 }
@@ -8215,7 +8215,7 @@ table.rounded > tbody:first-child tr:first-child td {
 .scroll-animation-init {
   opacity: 0;
 }
-
+*/
 /**
 * Declare keyframe animations
 *****************/
@@ -8868,7 +8868,7 @@ table.rounded > tbody:first-child tr:first-child td {
 * Site Header
 *****************************************************/
 .site-header {
-  background-color: #4DBCF0;
+  background-color: #fff;
   background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -8876,20 +8876,38 @@ table.rounded > tbody:first-child tr:first-child td {
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
+  height: 100%;
   text-align: center;
   color: #fff;
-  padding: 150px 0;
+  padding: 60px 0;
 }
 .site-header h1 {
-  color: #fff;
-  font-size: 75px;
-  font-family: 'Pacifico', 'Open Sans', Helvetica, Arial, sans-serif;
-  padding-bottom: 60px;
+  color: #000;
+  font-size: 115px;
+  /*font-family: 'Pacifico', 'Open Sans', Helvetica, Arial, sans-serif;*/
+  font-family: 'always and forever';
+  padding-top: 50px;
   text-shadow: 1px 2px 1px rgba #2f7440, 0.7;
 }
 .site-header h2 {
-  color: #fff;
+  color: #000;
+  font-family: 'Helvetica';
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
+.site-header h3 {
+  color: #000;
+  font-family: 'Helvetica';
+  font-size: 40px;
+  letter-spacing: 1.6px;
+
+}
+
+.site-header .date-topic {
+  padding-top: 330px;
+}
+
 .site-header .bordered-button {
   margin-top: 60px;
 }
@@ -9717,3 +9735,28 @@ border-radius: 20px;
     color: #fff;
 }
 
+.black {
+    color: #000;
+}
+
+.oval-shape {
+    width: 300px;
+    height: 300px;
+    background: #fefe53;
+    -moz-border-radius: 450px / 450px;
+    -webkit-border-radius: 450px / 450px;
+    border-radius: 450px / 450px;
+}
+
+@font-face { 
+  font-family: "always and forever";
+  src: url('http://static.tumblr.com/7glhdxz/WEGmgeus4/always_forever.ttf');
+  }
+
+.closer { 
+   margin-top: -130px; 
+}
+
+.closer-heading { 
+   margin-top: -40px; 
+}
