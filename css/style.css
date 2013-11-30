@@ -9140,6 +9140,7 @@ First section
 
 .section-first h1, h2 {
         font-family: 'Helvetica';
+        font-weight: bold;
 }
 
 .section-first h1 {
@@ -9148,13 +9149,11 @@ First section
 
 @media only screen and (max-width: 767px) {
   .section-first h1 {
-    font-size: 28px;
-    font-size: 1.7rem;
+    font-size: 20px;
   }
 
   .section-first h2 {
-    font-size: 18px;
-    font-size: 1.2rem;
+    font-size: 16px;
   }
 }
 
@@ -9168,6 +9167,8 @@ Second section
 .section-second h2 {
   font-size: 33.3px;
   text-align: justify;
+  font-weight: normal;
+
 }
 
 .section-second h3 {
