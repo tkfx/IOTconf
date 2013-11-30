@@ -36,7 +36,7 @@
 </head>
 <body>
 	<!-- START: Site Header -->
-	<header role="banner" class="site-header parallax animate-on-scroll" gumby-parallax="0.5" data-scrollanimation="fadeInLeft">
+	<header role="banner" class="site-header parallax" gumby-parallax="0.5" >
 		<div class="row">
 			<div class="twelve columns centerd">
 				<div class="four columns centered oval-shape">
@@ -51,17 +51,22 @@
 	</header>
 	<!-- /END: Site Header -->
 	<main role="main" class="site-main-content">
-		<!-- START: Details Section -->
-		<section class="site-section section-details">	
-			<!-- START: Detail Item -->
-			<div class="row detail-list-item animate-on-scroll" data-scrollanimation="fadeInRight" gumby-shuffle="only screen and (max-width: 767px)|1-0">
-				<div class="eight columns details on-left">
-					<h1>ISRAEL'S FIRST</h1>
-					<h2>INTERNET OF THINGS</h2>
-					<h1>CONFERENCE</h1>			
+		<section class="site-section section-first">	
+			<div class="row" gumby-shuffle="only screen and (max-width: 767px)|1-0">
+				<div class="six columns centered">
+					<h1 class="animate-on-scroll"  data-scrollanimation="fadeInRight">ISRAEL'S FIRST</h1>
+					<h2 class="animate-on-scroll"  data-scrollanimation="fadeInLeft">INTERNET OF THINGS</h2>
+					<h1 class="animate-on-scroll"  data-scrollanimation="fadeInRight" style="letter-spacing:3px;">CONFERENCE</h1>			
 				</div>				
 			</div>
-			<!-- /END: Detail Item -->
+		</section>
+		<section class="site-section section-second">	
+			<div class="row" gumby-shuffle="only screen and (max-width: 767px)|1-0">
+				<div class="six columns centered">
+					<h2 class="animate-on-scroll" data-scrollanimation="fadeInRight">if you love technology ... If the concept of connected devices gets you excited &nbsp....&nbsp if you want&nbsp access&nbsp to&nbsp thought leaders and Israeli innovation in Internet of Things ...</h2>
+					<h3 class="animate-on-scroll" data-scrollanimation="fadeInLeft">you need to be here</h3>	
+				</div>				
+			</div>
 		</section>
         <!-- START: Schedule Section -->
         <section class="site-section section-schedule parallax" gumby-parallax="0.5">
@@ -87,57 +92,6 @@
             </div>
         </section>
         <!-- /END: Schedule Section  -->
-		<!-- /END: Details Section  -->
-		<!-- START: Features Section -->
-		<section class="site-section section-features" data-target="features">
-			<!-- START: Section Header -->
-			<div class="row section-header">
-				<div class="twelve columns">
-					<h2>So what do we have in plan?</h2>
-                    <h4>Stay tuned for additional updates!</h4>
-					<hr>
-				</div>
-			</div>
-			<!-- /END: Section Header -->
-			<!-- START: Features List -->
-			<ul class="row features-list">
-				<!-- START: Feature Item -->
-				<li class="features-item animate-on-scroll" data-scrollanimation="fadeUpInLeft">
-					<span class="features-circle">
-						<span class="features-circle-icon">
-							<i class="icon-trophy"></i>
-						</span>
-					</span>		
-					<h3>Prizes</h3>
-                    <p>Each participant gets a tshirt, food and drinks are on the house and to top it all, the best projects will receive some more cool prizes!</p>
-				</li>
-				<!-- /END: Feature Item -->
-				<!-- START: Feature Item -->
-				<li class="features-item animate-on-scroll" data-scrollanimation="fadeUpIn">
-					<span class="features-circle">
-						<span class="features-circle-icon">
-							<i class="icon-users"></i>
-						</span>
-					</span>						
-					<h3>Mentors</h3>
-                    <p>Developers, designers and UX specialists from top companies and startups will be giving technical assistance to the teams</p>
-				</li>
-				<!-- /END: Feature Item -->
-				<!-- START: Feature Item -->
-				<li class="features-item animate-on-scroll" data-scrollanimation="fadeUpInRight">
-					<span class="features-circle">
-						<span class="features-circle-icon">
-							<i class="icon-thumbs-up"></i>
-						</span>
-					</span>						
-					<h3>Judges</h3>
-                    <p>The teams will present their projects to a panel of judges from the Technion, entrepreneurs and VCs</p>
-  				</li>
-				<!-- /END: Feature Item -->
-			</ul>
-			<!-- /END: Features List -->
-		</section>
-		<!-- /END: Features Section -->
 		<!-- START: Testimonials Section -->
 		<section class="site-section section-team">
             <div class="team-wrapper">
@@ -279,14 +233,7 @@
 	<script src="js/theme.js"></script>
 
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-45454041-1', 'gdg.co.il');
-        ga('send', 'pageview');
-
+//analytics
     </script>
 
 	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.

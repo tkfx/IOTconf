@@ -8196,7 +8196,7 @@ table.rounded > tbody:first-child tr:first-child td {
 * For more details: 
 * http://www.mightymeta.co.uk/css-noise/
 *****************/
-/*.noise {
+.noise {
   position: relative;
   z-index: 1;
 }
@@ -8215,7 +8215,7 @@ table.rounded > tbody:first-child tr:first-child td {
 .scroll-animation-init {
   opacity: 0;
 }
-*/
+
 /**
 * Declare keyframe animations
 *****************/
@@ -8876,7 +8876,7 @@ table.rounded > tbody:first-child tr:first-child td {
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
-  height: 70%;
+  height: 95%;
   text-align: center;
   color: #fff;
   padding: 60px 0;
@@ -8905,8 +8905,33 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 
 .site-header .date-topic {
-  padding-top: 330px;
+  padding-top: 300px;
 }
+
+/*.site-header .icon-down-open-big {
+  font-size: 70px;
+  padding-top: 20px;
+  color: #000;
+}*/
+
+@media only screen and (max-width: 767px) {
+  .site-header h2 {
+    font-size: 28px;
+    font-size: 1.7rem;
+  }
+
+  .site-header h3 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-size: 1.2rem;
+  }
+  .site-header .date-topic {
+  padding-top: 0px;
+  }
+
+}
+
+
 
 .site-header .bordered-button {
   margin-top: 60px;
@@ -9103,6 +9128,63 @@ border-radius: 20px;
 .fi-label a:hover {
   color: #2e2e2e;
   background-color: rgba(221, 221, 221, 0.8);
+}
+
+
+/*
+First section
+*/
+.section-first {
+      background-color: #fff;
+}
+
+.section-first h1, h2 {
+        font-family: 'Helvetica';
+}
+
+.section-first h1 {
+  font-size: 60px; 
+}
+
+@media only screen and (max-width: 767px) {
+  .section-first h1 {
+    font-size: 28px;
+    font-size: 1.7rem;
+  }
+
+  .section-first h2 {
+    font-size: 18px;
+    font-size: 1.2rem;
+  }
+}
+
+/*
+Second section
+*/
+.section-second {
+      background-color: rgba(236, 236, 236, 1);
+}
+
+.section-second h2 {
+  font-size: 33.3px;
+  text-align: justify;
+}
+
+.section-second h3 {
+  text-align: center;
+  font-size: 90px;
+  font-family: 'always and forever';
+}
+
+@media only screen and (max-width: 767px) {
+  .section-second h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section-second h3 {
+    font-size: 40px;
+  }
 }
 
 /**
