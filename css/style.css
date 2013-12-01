@@ -9840,10 +9840,16 @@ background: #fefe53;
 border-radius: 300px / 300px;
 }
 
-@font-face { 
-  font-family: "always and forever";
-  src: url('http://static.tumblr.com/7glhdxz/WEGmgeus4/always_forever.ttf');
-  }
+@font-face {
+    font-family: 'always and forever';
+    src: url('always_forever-webfont.eot');
+    src: url('always_forever-webfont.eot?#iefix') format('embedded-opentype'),
+         url('always_forever-webfont.woff') format('woff'),
+         url('always_forever-webfont.ttf') format('truetype'),
+         url('always_forever-webfont.svg#always__foreverregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .closer { 
    margin-top: -130px; 
