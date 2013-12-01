@@ -9200,6 +9200,13 @@ IOT sections
   padding-top:40%;
 }
 
+.section-third h1:hover {
+  animation: fullSpin 0.5s;
+  -webkit-animation: fullSpin 0.5s;
+  -moz-animation: fullSpin 0.5s;
+  -o-animation: fullSpin 0.5s;
+}
+
 
 .section-third h2 {
   font-family: "always and forever";
@@ -9207,6 +9214,13 @@ IOT sections
   text-align: center;
   padding-top:20%;
   font-weight: normal;
+}
+
+.section-third h2:hover {
+    animation: fullSpin 0.5s;
+    -webkit-animation: fullSpin 0.5s;
+    -moz-animation: fullSpin 0.5s;
+    -o-animation: fullSpin 0.5s;
 }
 
 @media only screen and (max-width: 767px) {
@@ -9869,6 +9883,7 @@ IOT sections
    -webkit-border-radius: 300px / 300px;
    border-radius: 300px / 300px;
 }
+
 
 @font-face {
     font-family: 'always and forever';
