@@ -136,3 +136,19 @@ $(function() {
 	ScrollAnimations.init();
 
 });
+
+
+// addition
+
+var $rotator = $(".rotator");
+$rotator.find("img:gt(0)").hide();
+setTimeout(Rotate, 1000);
+
+function Rotate() {
+    var $current = $rotator.find("img:visible");
+    var $next = $current.next();
+    if ($next.length == 0) $next = $rotator.find("img:eq(0)");
+    $current.hide();
+    $next.show();
+    setTimeout(Rotate, 4500);
+}

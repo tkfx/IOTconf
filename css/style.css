@@ -9158,7 +9158,7 @@ First section
 }
 
 /*
-Second section
+IOT sections
 */
 .section-second {
       background-color: rgba(236, 236, 236, 1);
@@ -9186,6 +9186,36 @@ Second section
   .section-second h3 {
     font-size: 40px;
   }
+}
+
+.section-third {
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-third h1 {
+  font-family: "always and forever";
+  font-size: 40px;
+  text-align: center;
+  padding-top:40%;
+}
+
+
+.section-third h2 {
+  font-family: "always and forever";
+  font-size: 40px;
+  text-align: center;
+  padding-top:20%;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 767px) {
+.oval-shape-small{
+   margin-top: 10px;
+}
+.section-third h1,h2 {
+  padding-top: 20%;
+}
 }
 
 /**
@@ -9536,15 +9566,15 @@ Second section
 
 
 /**
-* Team Section
+* speakers Section
 ****************************************************************/
 
-.section-team {
-    background-color: #44bede;
+.section-speakers {
+    background-color: rgba(236, 236, 236, 1);
     text-align: center;
 }
 
-.team-wrapper {
+.speakers-wrapper {
     margin: auto;
     max-width: 1000px;
     text-align: center;
@@ -9552,7 +9582,7 @@ Second section
 }
 
 
-.team-member {
+.speakers-member {
     display: block;
     width: 145px;
     height: 230px;
@@ -9568,21 +9598,21 @@ Second section
 
 }
 
-.team-fullname {
+.speakers-fullname {
     font-size: 20px;
     color: #414344;
 }
 
-.team-photo {
+.speakers-photo {
      padding: 10px;
 
 }
 
-.team-photo .img {
+.speakers-photo .img {
     border-radius: 30px;
 }
 
-.team-desc {
+.speakers-desc {
      font-size: 12px;
      padding: 1 px;
 }
@@ -9832,12 +9862,12 @@ Second section
 }
 
 .oval-shape-small{
-width: 150px;
-height: 150px;
-background: #fefe53;
--moz-border-radius: 300px / 300px;
--webkit-border-radius: 300px / 300px;
-border-radius: 300px / 300px;
+   width: 130px;
+   height: 130px;
+   background: #fefe53;
+   -moz-border-radius: 300px / 300px;
+   -webkit-border-radius: 300px / 300px;
+   border-radius: 300px / 300px;
 }
 
 @font-face {
