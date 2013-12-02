@@ -8890,17 +8890,19 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 .site-header h2 {
   color: #000;
-  font-family: 'Helvetica';
-  font-size: 70px;
+  font-family: "Open Sans";
+  font-size: 50px;
   font-weight: bold;
-  letter-spacing: 4px;
 }
 .site-header h3 {
   color: #000;
-  font-family: 'Helvetica';
-  font-size: 40px;
-  letter-spacing: 1.6px;
+  font-family: "Open Sans";
+  font-size: 30px;
+  letter-spacing: 1px;
 
+}
+.site-header h4 {
+  color: #000;
 }
 
 .site-header .date-topic {
@@ -9138,7 +9140,7 @@ First section
 }
 
 .section-first h1, h2 {
-        font-family: 'Helvetica';
+        font-family: "Open Sans";
         font-weight: bold;
 }
 
