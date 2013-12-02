@@ -9545,7 +9545,7 @@ IOT sections
 *****************************************************/
 .section-schedule {
     padding: 50px 0 60px 0;
-    background: #1a1e23 url('../img/parallax-conf-1.jpg') no-repeat;
+    background: #000 url('../img/parallax-conf-1.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
