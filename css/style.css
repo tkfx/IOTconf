@@ -9550,9 +9550,9 @@ IOT sections
 
 .schedule-wrapper {
     padding: 12px 15px;
-    margin: 0 auto;
     max-width: 720px;
     display: inline-block;
+    border-radius: 89px;
 }
 
 .schedule-day1 {
@@ -9601,6 +9601,11 @@ IOT sections
   font-size: 18px;
   text-align: left;
   float: left;
+}
+
+.section-schedule table td:nth-child(2) {
+  font-weight: bold;
+  width: 45%;
 }
 
 /**
