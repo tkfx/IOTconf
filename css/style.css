@@ -9138,7 +9138,7 @@ First section
       background-color: #fff;
 }
 
-.section-first h1, h2 {
+.section-first h1, .section-first h2 {
         font-family: "Open Sans";
         font-weight: bold;
 }
@@ -9677,6 +9677,7 @@ IOT sections
 
 .partners-wrapper h2 {
   color: #000000;
+  font-weight: none;
 }
 
 
