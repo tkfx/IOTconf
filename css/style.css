@@ -8888,13 +8888,13 @@ table.rounded > tbody:first-child tr:first-child td {
   text-shadow: 1px 2px 1px rgba #2f7440, 0.7;
 }
 .site-header h2 {
-  color: #000;
+  color: #fff;
   font-family: "Open Sans";
   font-size: 50px;
   font-weight: bold;
 }
 .site-header h3 {
-  color: #000;
+  color: #fff;
   font-family: "Open Sans";
   font-size: 30px;
   letter-spacing: 1px;
@@ -8934,17 +8934,17 @@ table.rounded > tbody:first-child tr:first-child td {
 
 
 .site-header .bordered-button {
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .bordered-button {
 display: inline-block;
-background-color: rgba(251, 140, 221, 0.91);
+background-color: rgba(255, 255, 255, 0.85);
 text-align: center;
 padding: 15px 45px;
 font-size: 20px;
 font-weight: 600;
-color: #fff;
+color: #000;
 -webkit-transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
@@ -8954,10 +8954,10 @@ transition: all 0.3s ease;
 border-radius: 20px;
 }
 .bordered-button:hover {
-  color: #fff;
+  color: #000;
   border: 5px;
-  border-color: #fff;
-  background-color: rgba(251, 140, 221, 0.7);;
+  border-color: #000;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /**
@@ -9135,12 +9135,17 @@ border-radius: 20px;
 First section
 */
 .section-first {
-      background-color: #fff;
+      background-color: #000;
 }
 
 .section-first h1, .section-first h2 {
         font-family: "Open Sans";
         font-weight: bold;
+        color: #fff;
+}
+
+.section-first p, .section-first h3 {
+  color: #fff;
 }
 
 .section-first h1 {
@@ -9545,6 +9550,11 @@ IOT sections
     -moz-background-size: cover;
     -o-background-size: cover;
     text-align: center;
+    color: #000;
+}
+
+.section-schedule h2 {
+  color: #000;
 }
 
 .schedule-wrapper {
@@ -9618,6 +9628,9 @@ IOT sections
     text-align: center;
 }
 
+.section-speakers h2 {
+    color: #000;
+}
 .speakers-wrapper {
     margin: auto;
     max-width: 1000px;
