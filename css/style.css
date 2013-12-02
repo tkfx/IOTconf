@@ -9715,11 +9715,11 @@ IOT sections
 * Sign Up Section 
 *****************************************************/
 .section-signup {
-  background-color: #44bede;
+  background-color: #fff;
   text-align: center;
 }
 .section-signup h1, .section-signup h2, .section-signup h3, .section-signup h4, .section-signup h5, .section-signup h6, .section-signup p {
-  color: #fff;
+  color: #000;
 }
 .section-signup h2 {
   font-size: 50px;
