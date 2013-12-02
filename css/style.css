@@ -8882,7 +8882,7 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 .site-header h1 {
   color: #000;
-  font-size: 115px;
+  font-size: 70px;
   /*font-family: 'Pacifico', 'Open Sans', Helvetica, Arial, sans-serif;*/
   font-family: 'always and forever';
   padding-top: 50px;
@@ -9925,5 +9925,5 @@ IOT sections
 }
 
 .closer-heading { 
-   margin-top: -40px; 
+   margin-top: -20px; 
 }
