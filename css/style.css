@@ -7974,12 +7974,11 @@ body .video.twitch, body .video.youtube.show_controls {
 
 table {
   display: table;
-  background-color: rgba(255, 255, 255, 0.69);
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 20px;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e5e5e5;  
 }
 table caption {
   text-align: center;
@@ -8014,7 +8013,7 @@ table table tr.striped {
   background-color: #e5e5e5;
 }
 table.rounded {
-  border-radius: 4px;
+  border-radius: 8px;
   border-collapse: separate;
   border-radius:10px;
 }
@@ -9552,7 +9551,9 @@ IOT sections
     padding: 12px 15px;
     max-width: 720px;
     display: inline-block;
-    border-radius: 89px;
+    background-color: rgba(255, 255, 255, 0.69);
+    border-radius: 15px;
+
 }
 
 .schedule-day1 {
