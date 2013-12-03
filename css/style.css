@@ -8897,8 +8897,8 @@ table.rounded > tbody:first-child tr:first-child td {
   color: #fff;
   font-family: "Open Sans";
   font-size: 30px;
-  letter-spacing: 1px;
-
+  letter-spacing: 0.2px;
+  font-weight:bold;
 }
 .site-header h4 {
   color: #000;
