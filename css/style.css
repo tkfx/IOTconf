@@ -8884,17 +8884,17 @@ table.rounded > tbody:first-child tr:first-child td {
   font-size: 70px;
   /*font-family: 'Pacifico', 'Open Sans', Helvetica, Arial, sans-serif;*/
   font-family: 'always and forever';
-  padding-top: 50px;
+  padding-top: 0px;
   text-shadow: 1px 2px 1px rgba #2f7440, 0.7;
 }
 .site-header h2 {
-  color: #fff;
+  color: #000;
   font-family: "Open Sans";
   font-size: 50px;
   font-weight: bold;
 }
 .site-header h3 {
-  color: #fff;
+  color: #000;
   font-family: "Open Sans";
   font-size: 30px;
   letter-spacing: 0.2px;
@@ -8905,7 +8905,7 @@ table.rounded > tbody:first-child tr:first-child td {
 }
 
 .site-header .date-topic {
-  padding-top: 300px;
+  padding-top: 10px;
 }
 
 /*.site-header .icon-down-open-big {
@@ -8975,13 +8975,12 @@ border-radius: 20px;
 }
 
 .logo-wrapper {
-  margin-top: -50px;
-    padding: 12px 15px;
+  margin-top: 10px;
+    padding: 0px 0px;
     max-width: 720px;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.69);
     border-radius: 15px;
-
 }
 
 .section-header hr {
@@ -9653,7 +9652,7 @@ IOT sections
 .speakers-member {
     display: block;
     width: 145px;
-    height: 230px;
+    height: 200px;
     float: left;
     background-color: #fff;
     margin: 10px 10px;
