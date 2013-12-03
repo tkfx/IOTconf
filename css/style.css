@@ -9556,7 +9556,7 @@ IOT sections
 *****************************************************/
 .section-schedule {
     padding: 50px 0 60px 0;
-    background: #000 url('../img/strip-background.png') repeat;
+     background-image: url('../img/parallax-conf-1.jpg');
     /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;*/
@@ -9569,8 +9569,8 @@ IOT sections
 }
 
 .schedule-wrapper {
-    padding: 12px 15px;
-    max-width: 720px;
+    padding: 5px 5px;
+    max-width: 1200px;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.69);
     border-radius: 15px;
@@ -9627,7 +9627,7 @@ IOT sections
 
 .section-schedule table td:nth-child(2) {
   font-weight: bold;
-  width: 45%;
+  width: 50%;
 }
 
 /**
